@@ -2,7 +2,7 @@
 
 *Instructions: Lab3_Fall2021.ppt.pdf*
 
-* *File: Lab3a_ answer-sheet.docx.pdf*
+* *Additional Files: Lab3a_ answer-sheet.docx.pdf*
 
 >My Lab 3a Work: Lab 3a - Vivian Do.png
 
@@ -10,5 +10,6 @@
 
 >My Lab 3c Work: Lab 3c - VIvian Do.pdf
 
+>* Code: 
 
 *pls excuse my messy handwriting ^^; !*
