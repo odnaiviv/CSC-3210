@@ -15,7 +15,7 @@ ExitProcess proto, dwExitCode:dword
 
 .code
 main1 proc
-	mov eax, 0h					; putting zeros in the register value
+	mov eax, 0h				; putting zeros in the register value
 	mov ebx, 0h
 
 	mov ax, val3				; computing val3 + 7 in ax register
@@ -25,7 +25,7 @@ main1 proc
 	add bx, val1
 	sub ax, bx
 
-	add ax, ((5d / 3d) * 7d)	; computing (5 / 3) * 7 and then adding it to ax register
+	add ax, ((5d / 3d) * 7d)		; computing (5 / 3) * 7 and then adding it to ax register
 
 	invoke ExitProcess, 0
 
