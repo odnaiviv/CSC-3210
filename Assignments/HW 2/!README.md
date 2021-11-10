@@ -1,7 +1,6 @@
 ## Homework 2 PDF & Work
 
-*Instructions: Assignment1_Fall_2021.doc.pdf*
+*Instructions: Assignemnt2_Fall_21.pdf*
 
->Homework 1 Answered: Assignment 1 - Vivian Do.pdf
-
-*pls excuse my messy handwriting ^^; !*
+>Homework 2 Answered: Assignment 2 - Vivian Do.pdf
+>* Code: Do1.asm + Do2.asm
