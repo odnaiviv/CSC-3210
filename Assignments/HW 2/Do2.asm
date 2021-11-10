@@ -15,7 +15,7 @@ ExitProcess proto, dwExitCode:dword
 
 .code
 main2 proc
-	mov ecx, 0h					; putting zeros in the register values
+	mov ecx, 0h				; putting zeros in the register values
 
 	mov cl, val1				; computing (-val1 + val3)
 	neg cx
@@ -24,7 +24,7 @@ main2 proc
 	sub cl, val2				; computing -val2 - val2 and adding it to cl register
 	sub cl, val1
 
-	add cl, 3					; adding 3 to cl register
+	add cl, 3				; adding 3 to cl register
 
 	invoke ExitProcess, 0
 
