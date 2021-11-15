@@ -14,7 +14,7 @@ ExitProcess proto, dwExitCode:dword
 main1 proc
 	mov esi, OFFSET myBytes
 	mov ax, [esi]					; a. AX = 2010
-	mov eax, DWORD PTR myWords		; b. EAX = 003B008A
+	mov eax, DWORD PTR myWords			; b. EAX = 003B008A
 	mov esi, myPointer
 	mov ax, [esi + 2]				; c. AX = 0000
 	mov ax, [esi + 6]				; d. AX = 0000
