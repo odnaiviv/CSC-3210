@@ -13,7 +13,7 @@ main3 proc
 	mov ax, WORD PTR dVal + 2
 	add ax, 3
 	mov WORD PTR dVal, ax			; dVal = 12341237
-	mov eax, dVal					; EAX = 12341237
+	mov eax, dVal				; EAX = 12341237
 	invoke ExitProcess, 0
 
 main3 endp
