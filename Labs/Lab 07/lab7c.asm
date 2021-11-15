@@ -9,8 +9,8 @@ ExitProcess proto dwExitCode:dword
 
 .code
 main3 proc
-	; direct-offset addressig (doubleword array): 
-	mov eax, arrayD				; EAX = 00010000
+	; direct-offset addressing (doubleword array)
+	mov eax, arrayD			; EAX = 00010000
 	mov ebx, [arrayD + 4]		; EBX = 00020000
 	mov edx, [arrayD + 8]		; EDX = 00030000
 	invoke ExitProcess, 0
