@@ -19,7 +19,7 @@ main4 proc
 	xchg ax, [arrayB + 4]
 	mov [arrayB + 2], ax
 
-	mov ax, arrayB				; checking to see if the elements are swapped by putting them back in register
+	mov ax, arrayB			; checking to see if the elements are swapped by putting them back in register
 	mov bx, [arrayB + 2]
 	mov cx, [arrayB + 4]
 	mov dx, [arrayB + 6]
