@@ -5,4 +5,4 @@
 * *Additional Files: Lab7-answer-sheet.docx.pdf*
 
 >My Lab 7 Work: Lab 7 - Vivian Do.pdf
->* Code: lab7a.asm + lab7b.asm + lab7c.asm + lab7d + lab7e
+>* Code: lab7a.asm + lab7b.asm + lab7c.asm + lab7d.asm + lab7e.asm
