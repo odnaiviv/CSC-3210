@@ -10,7 +10,7 @@ ExitProcess proto, dwExitCode:dword
 .code
 main2 proc
 	mov eax, 0				; zeroing eax register
-	mov ax, myWord + 0		; sum up the list values
+	mov ax, myWord + 0			; sum up the list values
 	add ax, myWord + 2
 	add ax, myword + 4
 	add ax, myWord + 6
