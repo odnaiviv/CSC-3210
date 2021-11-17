@@ -10,8 +10,8 @@ ExitProcess proto, dwExitCode:dword
 
 .data
 	z DWORD 3 DUP (?)		; creating given DWORD array
-	x WORD 10				; initializing x, y, and r with their given values
-	y WORD 15				; as 16-bit integers
+	x WORD 10			; initializing x, y, and r with their given values
+	y WORD 15			; as 16-bit integers
 	r WORD 4
 
 .code
