@@ -10,22 +10,22 @@ ExitProcess proto, dwExitCode:dword
 
 .code
 main proc
-	mov eax, 0								; putting zeros in register values
+	mov eax, 0					; putting zeros in register values
 	mov ebx, 0
 
-	mov ax, Array							; moving values into register
+	mov ax, Array					; moving values into register
 	mov MAXIMUM, ax
 	mov ecx, LENGTHOF Array
 
-	L1:										; loop
+	L1:						; loop
 		mov ax, [Array + bx]
 		add ebx, TYPE Array
 
-		cmp MAXIMUM, ax						; comparing elements in ax
-		jle IF_BLOCK						; jumping if max < ax value
+		cmp MAXIMUM, ax				; comparing elements in ax
+		jle IF_BLOCK				; jumping if max < ax value
 		jmp next
 
-		IF_BLOCK:							; if statement
+		IF_BLOCK:				; if statement
 			mov MAXIMUM, ax
 		next:
 		loop L1
