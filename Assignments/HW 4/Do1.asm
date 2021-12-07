@@ -63,7 +63,7 @@ main1 proc
 	endwhile_block:					; putting edi register into sum
 		mov sum, di
 	
-	invoke Exitprocess, 0
+	invoke Exitprocess, 0				; sum = 53
 main1 endp
 end main1
 
