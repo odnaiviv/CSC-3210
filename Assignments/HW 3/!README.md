@@ -1,5 +1,7 @@
 ## Homework 3 PDF & Work
 
+### Grade: 100! :D
+
 *Instructions: Assignemnt3_Fall_2021.pdf*
 
 >Homework 3 Answered: Assignment 3 - Vivian Do.pdf
