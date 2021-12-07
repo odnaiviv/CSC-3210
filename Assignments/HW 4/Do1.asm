@@ -19,13 +19,13 @@ ExitProcess proto, dwExitCode:dword
 
 .code
 main1 proc
-	mov eax, 0						; putting zeros in the register values
+	mov eax, 0					; putting zeros in the register values
 	mov ebx, 0
 	mov ecx, 0
 	mov edx, 0
 
-	mov ax, i						; putting i into eax register
-	mov bx, j						; putting j into ebx register
+	mov ax, i					; putting i into eax register
+	mov bx, j					; putting j into ebx register
 	mov cx, var1					; putting var1 into ecx register
 	mov dx, var2					; putting var2 into edx register
 
@@ -36,28 +36,28 @@ main1 proc
 		jle endwhile_block			; jumping to end if j <= -2
 		jmp if_block
 
-	if_block:						; if statement
+	if_block:					; if statement
 		cmp cx, var3				; comparing var1 with var3
 		jle elseif_block
-		sub cx, ax					; var1 - i
+		sub cx, ax				; var1 - i
 		jmp continue
 
 	elseif_block:					; else if statement
 		cmp dx, var3				; comparing var2 with var3
 		jge else_block
-		add dx, bx					; var2 + j
+		add dx, bx				; var2 + j
 		jmp continue
 
-	else_block:						; else statement
+	else_block:					; else statement
 		add var3, ax				; var3 + i
 		jmp continue
 		
 	continue: 
-		mov di, cx					; adding up the vars in edi register
+		mov di, cx				; adding up the vars in edi register
 		add di, dx
 		add di, var3
-		add ax, 1					; i + 1 or incrementing i
-		sub bx, 1					; j - 1 or decrementing j
+		add ax, 1				; i + 1 or incrementing i
+		sub bx, 1				; j - 1 or decrementing j
 		jmp while_block				; looping back to beginning of while loop
 		
 	endwhile_block:					; putting edi register into sum
