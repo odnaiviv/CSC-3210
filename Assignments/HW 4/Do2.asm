@@ -11,16 +11,16 @@ ExitProcess proto, dwExitCode:dword
 
 .code
 main2 proc
-	mov eax, 0						; putting zeros in the register values
+	mov eax, 0					; putting zeros in the register values
 	mov al, 88h
 
 	test al, 1000000b				; bit masking to check MSB
-	jnz msb_set						; msb is set
-	sal al, 2						; msb is not set
+	jnz msb_set					; msb is set
+	sal al, 2					; msb is not set
 
 	msb_set: 
 		sar al, 3
 
-	invoke Exitprocess, 0			; End Results: AL = F1
+	invoke Exitprocess, 0				; End Results: AL = F1
 main2 endp
 end main2
