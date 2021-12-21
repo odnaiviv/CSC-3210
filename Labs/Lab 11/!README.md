@@ -4,4 +4,4 @@
 
 >My Lab 11 Files: 
 >* Code: Do.asm
->* Screenshots: lab11_screenshot.PNG + lab11_watchwin.PNG
+>* Screenshots: lab11_screenshot.png + lab11_watchwin.PNG
